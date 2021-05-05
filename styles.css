@@ -4,7 +4,7 @@
 
 body {
     margin: 40px 0px;
-    background-color: #95E8E7;
+    background-color: #fff;
 }
 
 body, input, button
@@ -57,7 +57,7 @@ main
 {
     width: 1280px;
     margin: 0 auto;
-    background-color: #e9ebee;
+    background-color: rgba(4, 4, 4, 0.94);
     box-shadow: 0px 8px 30px #1d2d4f;
     border-radius: 4px;
     overflow: hidden;
@@ -99,7 +99,7 @@ main
 /* Header */
 header {
     padding: 15px 20px;
-    background-color: #5D2895;
+    background-color: #9E9D9E;
 }
 
 #logo
@@ -124,7 +124,7 @@ header {
     font-size: 16px;
     padding: 8px 15px;
     padding-right: 37px;
-    background-color: #876FAF;
+    background-color: #353535;
     border-radius: 20px;
     margin-left: 15px;
 }
@@ -193,7 +193,7 @@ header {
     color: #fff;
     font-size: 12px;
     padding: 4px 4px 3px 4px;
-    background-color: #ff1e0e;
+    background-color: #D3D3D3;
     border-radius: 3px;
     line-height: 1;
 }
@@ -214,12 +214,13 @@ header {
     background-color: #f1f1f1;
     border-radius: 50%;
     overflow: hidden;
+
 }
 
-#p-link img
-{
-    width: 100%;
-}
+    #p-link img {
+        width: 100%;
+        margin-top: 10%;
+    }
 
 /* Header finished */
 
@@ -249,7 +250,7 @@ header {
 #profile-banner-image img
 {
     width: 100%;
-    margin-top: 0%;
+    margin-top: -50%;
 }
 
 #profile-pic
@@ -1069,7 +1070,7 @@ header {
 #device-bar-2
 {
     padding: 9px 0px 13px 0px;
-    background-color: #000;
+    background-color: #fff;
 }
 
 #device-bar-2 i
