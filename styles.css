@@ -219,15 +219,15 @@ header {
 
     #p-link img {
         width: 100%;
-        margin-top: 10%;
+        margin-top: 0%;
     }
 
 /* Header finished */
 
 /* Profile image header */
-#profile-upper
-{
+#profile-upper {
     position: relative;
+   
 }
 
 #profile-d
@@ -238,6 +238,7 @@ header {
     right: 0px;
     height: 180px;
     z-index: 2;
+
 }
 
 #profile-banner-image
@@ -263,10 +264,10 @@ header {
     box-shadow: 0 0 0 5px #fff;
 }
 
-#profile-pic img
-{
-    width: 100%;
-}
+    #profile-pic img {
+        width: 100%;
+        margin-top: -10%;
+    }
 
 #u-name
 {
@@ -797,7 +798,7 @@ header {
 
 #p-c-i
 {
-    width: 50px;
+    width: 30px;
     border-radius: 50%;
     overflow: hidden;
 }
